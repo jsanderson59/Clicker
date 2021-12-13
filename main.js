@@ -1,8 +1,9 @@
-var money = 0;
+var money = 1;
+var money_display = document.getElementById("money");
 
 //functions
 
-function add()
-{
+function add() {
+  money_display.innerHTML = money;
   money += 1;
 }
