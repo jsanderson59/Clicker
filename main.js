@@ -4,4 +4,5 @@ var money = 0;
 
 function add()
 {
-  money += 1;}
+  money += 1;
+}
